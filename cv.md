@@ -9,3 +9,5 @@
   * problem solving skills
   * can speak 4 languages 
   * can work under pressure
+** Here is the link to my social media**
+  *[instagram](https://www.instagram.com/qpqp_asd?igsh=cTZ0d3RvdzkxMzV6)
