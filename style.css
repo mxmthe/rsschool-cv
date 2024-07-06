@@ -10,6 +10,12 @@ body {
 header {
   text-align: left;
 }
+p {
+  padding-left: 20px;
+}
+ul {
+  list-style-position: inside;
+}
 h1 {
   margin-bottom: 10px;
   padding-left: 20px;
