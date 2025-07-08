@@ -17,7 +17,6 @@
 ======
 # Code Example
 ```
-function greet(name) {
-  console.log('Hello' + name + '!')
+function accum(s) {
+  return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-')
 }
-greet('Khusniddin')
