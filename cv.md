@@ -21,3 +21,19 @@ function accum(s) {
   return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-')
 }
 ```
+======
+# Experience
+* dispatcher
+* translator
+======
+# Education
+* World Languages Lyceum
+* World Languages University
+    + Japanese and Chinese languages
+======
+# Languages
+* English - C2
+* Japanese - N3
+* Chinese - HSK2
+* Russian - fluent
+* Uzbek - fluent
