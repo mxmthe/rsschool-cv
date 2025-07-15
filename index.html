@@ -7,6 +7,7 @@
   <title>CV</title>
 </head>
 <body>
+  <div class="wrap">
   <header class="header">
     <div class="header-item">Contacts</div>
     <div class="header-item">About Me</div>
@@ -18,9 +19,11 @@
   </header>
   <nav class="photo">
     <img src="my-photo.jpg" alt="my photo" class="profile-photo" />
+    <div class="profile-info">
     <div class="profile-name">Mirzarakhmanov Khusniddin</div>
     <div class="underline"></div>
     <p class="position">Junior front-end developer</p>
+    </div>
   </nav>
 
   <hr class="full-line">
@@ -52,11 +55,14 @@
     </section>
     <section class="section" id="Code">
       <h2 class="section-title">Code</h2>
+      <div class="code-example">
       <pre>
 function accum(s) {
-return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-')
+  return s.split('').map((c, i) => 
+    (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-')
 }
       </pre>
+      </div>
     </section>
     <section class="section" id="Experience">
       <h2 class="section-title">Experience</h2>
@@ -87,12 +93,12 @@ return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).
   <footer class="footer">
     <div class="footer-content">
       <a href="https://github.com/mxmthe" target="_blank" class="footer-link">© 2025 X. Mirzarakhmonov</a>
+      <a href="https://rs.school/" target="_blank">
+        <img src="rs-school-logo.svg" class="rs-logo" alt="RS School logo">
+      </a>
     </div>
   </footer>
-  <a href="https://rs.school/" target="_blank">
-  <img src="rs-school-logo.svg" class="rs-logo" alt="RS School logo">
-</a>
-
+  </div>
 </body>
 
 </html>
